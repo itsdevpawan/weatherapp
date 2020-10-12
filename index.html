@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-wrap">
+        
+        <header>
+            <input type="text" placeholder="Search for a city or Zip Code..." autocomplete="off" class="search-box">
+            <button class="button" type="submit">Search</button>
+        </header>
+        <main>
+            <section class="location">
+                <div class="city"></div>
+                <div class="date"></div>
+            </section>
+            <div class="current">
+                <div class="temp">Enter the City<span></span></div>
+                <div class="weather"></div>
+                <div class="hi-low"></div>
+            </div>
+            <div class="other">
+                <h1 style="text-decoration: underline; margin-bottom: 15px;">Other Details</h1>
+                <div class="latlong">
+                    <h2>Coordinates</h2>
+                    <p>Latitude : <span class="latitude"></span></p>
+                    <p>Longitude : <span class="longitude"></span></p>
+                </div>
+                <div class="wind">
+                    <h2>Wind</h2>
+                    <p>Speed : <span class="speed"></span></p>
+                    <p>Degree : <span class="degree"></span></p>
+                </div>
+            </div>
+            <div class="sun">
+                <h2>Sunrise & Sunset</h2>
+                <p>Sunrise : <span class="rise"></span></p>
+                <p>Sunset : <span class="set"></span></p>
+            </div>
+        </main>
+        
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
